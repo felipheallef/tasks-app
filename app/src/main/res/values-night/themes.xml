@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Tasks" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="toolbarStyle">@style/Widget.Tasks.Toolbar</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Widget.Tasks.Toolbar" parent="Widget.MaterialComponents.Toolbar.PrimarySurface">
+        <item name="titleTextColor">@color/white</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:elevation">16dp</item>
+        <item name="materialThemeOverlay">@style/ThemeOverlay.Tasks.Toolbar</item>
+    </style>
+
+    <style name="ThemeOverlay.Tasks.Toolbar" parent="Theme.Tasks">
+        <item name="titleTextColor">@color/white</item>
+    </style>
+
+</resources>

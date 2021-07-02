@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Tasks</string>
+    <string name="action_create">Criar</string>
+    <string name="label_description">Descrição</string>
+    <string name="label_title">Título</string>
+    <string name="label_new_task">Nova Tarefa</string>
+    <string name="label_date">Data</string>
+    <string name="label_hour">Hora</string>
+    <string name="label_edit">Editar</string>
+    <string name="label_delete">Apagar</string>
+    <string name="action_save">Salvar</string>
+    <string name="label_edit_task">Editar tarefa</string>
+    <string name="label_tasks">Tarefas</string>
+    <string name="date_and_time_example">12/01/2021 08:25</string>
+</resources>
